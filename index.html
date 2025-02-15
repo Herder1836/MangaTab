@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk"> <!-- Мова документа -->
+<head>
+    <meta charset="utf-8"/> <!-- Кодування -->
+    <meta name="author" content="Andrei Pogonia"/> <!-- Автор -->
+    <meta name="description" content="практичний сайт"/> <!-- Опис -->
+    <meta name="keywords" content="KeepSolid"/> <!-- Ключові слова -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Адаптивність -->
+    <link rel="icon" type="image/png" href="images/favicon.png"/> <!-- Іконка -->
+    <title>MangaTab</title> <!-- Заголовок -->
+    <link rel="stylesheet" href="stylesmenu.css"/> <!-- Стили -->
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Логотип сайту" class="logo"/> <!-- Логотип -->
+        <h1>MangaTab</h1> <!-- Назва -->
+    </header>
+
+    <nav>
+        <ul class="tabs"> <!-- Навігація -->
+            <li data-tab="manga">Манга</li>
+            <li data-tab="manhwa">Манхва</li>
+            <li data-tab="about">Про сайт</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="manga" class="tab-content active"> <!-- Манга -->
+            <h2>Популярна Манга</h2>
+            <div class="card-container"> <!-- Картки манги -->
+                <a href="manga-onepiece.html" class="card">
+                    <span class="rating">9.8</span>
+                    <img src="images/onepiece.png" alt="One Piece"/>
+                    <h3>One Piece</h3>
+                </a>
+                <a href="manga-naruto.html" class="card">
+                    <span class="rating">9.7</span>
+                    <img src="images/naruto.png" alt="Naruto"/>
+                    <h3>Naruto</h3>
+                </a>
+            </div>            
+        </section>
+        
+        <section id="manhwa" class="tab-content"> <!-- Манхва -->
+            <h2>Популярна Манхва</h2>
+            <div class="card-container"> <!-- Картки манхви -->
+                <a href="manhwa-solo.html" class="card">
+                    <span class="rating">9.6</span>
+                    <img src="images/sololeveling.png" alt="Solo Leveling"/>
+                    <h3>Solo Leveling</h3>
+                </a>
+                <a href="manhwa-tbate.html" class="card">
+                    <span class="rating">9.5</span>
+                    <img src="images/tbate.png" alt="The Beginning After The End"/>
+                    <h3>The Beginning After The End</h3>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="tab-content"> <!-- Про сайт -->
+            <h2>Про сайт</h2>
+            <p>"MangaTab" — це сайт, присвячений світові японської манги та корейської манхви. 
+                Тут ви знайдете цікаву інформацію про популярні та нові тайтли, детальні описи сюжетів, а також рекомендації для читання. 
+                Ми регулярно оновлюємо контент, щоб ви завжди були в курсі найсвіжіших релізів.</p>
+
+               <p>Окрім цього, ми пропонуємо зручні посилання на перевірені ресурси, де можна легально читати мангу й манхву онлайн. 
+                MangaTab допоможе вам поринути у захопливий світ історій, знайти нові улюблені тайтли та розширити свої горизонти в аніме-культурі!</p>
+               <p>📖 Що таке манга і манхва?
+                Манга – це японські комікси, які зазвичай читаються справа наліво. Вони охоплюють безліч жанрів і є важливою частиною японської культури.
+                Манхва – це комікси з Південної Кореї, які зазвичай читаються зліва направо та часто випускаються у кольоровому форматі, що відрізняє їх від традиційної манги. </p>
+                <div class="gif-container">
+                    <img src="images/gif.gif" alt="GIF Animation">
+                </div>
+                
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p>Цей сайт зроблений як проєкт для практики у KeepSolid.</p>
+          <div class="footer-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="tel:+38(000)0000000">+38(000)0000000</a>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="scriptmenu.js"></script> <!-- Скрипти -->
+</body>
+</html>
